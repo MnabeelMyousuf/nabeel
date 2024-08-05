@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        body{background-color: black;
+            background-image: url(header-image.JPG);
+
+
+        }
+    button{ border-color: black;
+            background-color: red;
+            color: aliceblue;
+padding: 5px;
+font-family: poppins, sans-serif;
+box-sizing: border-box; }
+  div{ 
+color: white;
+font-family:poppins, sans-serif;}
+
+
+
+ 
+  img{width: 150px; 
+
+  }
+  .header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+  }
+  input{
+    padding: 5px;
+  }
+  button.btn{
+    background-color:red;
+    float: right;
+  }
+
+  </style>
+</head>
+<body>
+<button class="btn">sign in</button>
+    <img src="pngwing.com.png" alt="">
+ <div class="header-content"> 
+    
+<h1>Unlimited movies, TV shows, and more</h1>
+<h2>Watch anywhere. Cancel anytime.
+
+</h2>
+<h3>Ready to watch? Enter your email to create or restart your membership.
+</h3>
+<input type="email" placeholder="Email Address">
+<button type="submit">Get Started</button>
+</form>
+    </div>
+
+</body>
+</html>
